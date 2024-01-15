@@ -93,6 +93,11 @@ a {
   border-radius: 14px;
   letter-spacing: 0.4px;
 }
+.btn:hover {
+  color: rgba(0, 0, 0, 0.7);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 5px 5px rgba(192, 192, 192, 0.5);
+}
 
 li {
   color: #FFF;
@@ -298,6 +303,19 @@ ul {
   flex-flow: row-reverse;
   margin: 17px 0px 30px 30px;
 }
+.section-2 .grid-container .card button:hover,
+.section-2 .grid-container h1 button:hover,
+.section-2 .grid-container p button:hover,
+.section-2 .grid-container button button:hover {
+  color: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.3);
+}
+.section-2 .grid-container .card button:hover .circle,
+.section-2 .grid-container h1 button:hover .circle,
+.section-2 .grid-container p button:hover .circle,
+.section-2 .grid-container button button:hover .circle {
+  background: #fff;
+}
 .section-2 .grid-container .card .circle,
 .section-2 .grid-container h1 .circle,
 .section-2 .grid-container p .circle,
@@ -394,6 +412,7 @@ ul {
 
 .left-side {
   width: 50%;
+  min-height: 540px;
   justify-content: center;
   display: flex;
   align-items: center;
@@ -442,6 +461,13 @@ ul {
   position: relative;
   flex-flow: row-reverse;
   display: flex;
+}
+.content-2 button:hover {
+  color: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.3);
+}
+.content-2 button:hover .circle {
+  background: #fff;
 }
 .content-2 .circle {
   margin-right: 6px;
@@ -635,6 +661,13 @@ ul {
   position: relative;
   flex-flow: row-reverse;
   display: flex;
+}
+.cont-sec-8 button:hover {
+  color: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.3);
+}
+.cont-sec-8 button:hover .circle {
+  background: #fff;
 }
 .cont-sec-8 .circle {
   margin-right: 6px;

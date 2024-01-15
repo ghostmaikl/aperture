@@ -6,7 +6,7 @@ $color-black: #000;
   margin: 0;
   padding: 0;
   border: none;
-    color: inherit;
+  color: inherit;
   box-sizing: border-box;
 }
 
@@ -90,6 +90,12 @@ a {
   padding: 10px 20px 14px;
   border-radius: 14px;
   letter-spacing: 0.4px;
+
+  &:hover {
+    color: rgb(0, 0, 0, 0.7);
+    background: rgb(255, 255, 255, 0.9);
+    box-shadow: 0px 0px 5px 5px rgb(192, 192, 192, 0.5);
+  }
 }
 
 li {

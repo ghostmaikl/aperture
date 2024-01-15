@@ -144,6 +144,8 @@ ul {
       font-size: 14px;
       margin-left: 30px;
 
+
+
       h1 {
         letter-spacing: 2px;
         text-transform: uppercase;
@@ -169,6 +171,15 @@ ul {
         position: relative;
         flex-flow: row-reverse;
         margin: 17px 0px 30px 30px;
+
+        &:hover {
+          color: rgb(255, 255, 255, );
+          background: rgb(255, 255, 255, 0.3);
+
+          .circle {
+            background: #fff;
+          }
+        }
       }
 
       .circle {
@@ -287,8 +298,8 @@ ul {
 
 .left-side {
   width: 50%;
+  min-height: 540px;
   justify-content: center;
-
   display: flex;
   align-items: center;
   padding-left: 60px;
@@ -334,8 +345,6 @@ ul {
 
   button {
     color: $color-black;
-
-
     align-items: center;
     letter-spacing: 0.4px;
     border-radius: 14px;
@@ -344,6 +353,15 @@ ul {
     position: relative;
     flex-flow: row-reverse;
     display: flex;
+
+    &:hover {
+      color: rgb(255, 255, 255, );
+      background: rgb(255, 255, 255, 0.3);
+
+      .circle {
+        background: #fff;
+      }
+    }
   }
 
   .circle {
@@ -572,6 +590,15 @@ ul {
     position: relative;
     flex-flow: row-reverse;
     display: flex;
+
+    &:hover {
+      color: rgb(255, 255, 255, );
+      background: rgb(255, 255, 255, 0.3);
+
+      .circle {
+        background: #fff;
+      }
+    }
   }
 
   .circle {
